@@ -1,0 +1,164 @@
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+.jumbotron {
+  background-color:#0091EA;
+  color: #fff;
+padding-right: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-fluid {
+ padding-top: 70px;
+  padding-bottom: 0px;
+}
+
+
+/*----------NAVBAR---------*/
+
+
+.navbar {
+  margin-bottom: 0;
+background-color: #0091EA;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+#header{
+background-image: url('images/logo3.jpg');
+   width: 100%; /* Set width to 100% */
+  margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+           -moz-transition: all .5s ease-in-out;   
+           display: flex;
+           margin-bottom: 0px;
+}
+#header h1{
+       font-size: 30px;
+    color:white;
+    font-style: lato;
+}
+.bg-1 { 
+    background-color:#0091EA; /* Green */
+    color: #ffffff;
+  }
+
+/*------------About ---------*/
+
+.bg-grey {
+  background-color: #f6f6f6;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 70px;
+  font-weight: 20px;
+}
+.bg-grey p{
+    text-align:left;
+}
+
+
+
+/*------------Dinner Menu----------*/
+.dinnerbg{
+     background-image: url('images/logo8.jpg');
+  margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+           -moz-transition: all .5s ease-in-out;   
+               min-height: 360px;
+               width: 100%;
+
+}
+.dinnerbg h1{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 90px;
+    font-style: lato;
+}
+
+
+
+
+
+/*------------Book A table----------*/
+ .bg-booking{
+    background-image: url('images/logo7.jpg');
+   width: 100%; /* Set width to 100% */
+  margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 460px;
+    transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+           -moz-transition: all .5s ease-in-out;   
+margin-top: 0px;
+padding-top: 35px;
+padding-bottom: 40px;
+}
+
+
+
+
+/*------------Footer Settings----------*/
+
+.bg-footer {
+  background-color: #2f2f2f;
+  color: #ffffff;
+      padding: 20px;
+  margin-bottom:0px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background:blue;
+}
+
